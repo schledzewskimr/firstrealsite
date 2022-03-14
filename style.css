@@ -13,7 +13,6 @@ h1 {
     display: flex;
     text-align: center;
     justify-content: center;
-    align-items: center;
     padding-top: 13%;
     font-size: 100px;
     text-transform: uppercase;
@@ -47,14 +46,11 @@ nav{
     justify-content: space-evenly;
     font-size: large;
 }
-div{
-    display: flex;
-    padding: 1vh;
-}
-div:hover{
+a:hover{
     border-left: 2px whitesmoke solid;
     border-right: 2px whitesmoke solid;
     color: #86f895;
+    padding: 1vh;
 }
 a:link{
     color: aliceblue;
@@ -64,6 +60,26 @@ a:visited{
 }
 a:hover{
     color:#86f895
+}
+.cage{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.pictures{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+.pictures:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
 }
 footer{
     display: flex;
