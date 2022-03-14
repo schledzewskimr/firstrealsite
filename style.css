@@ -1,0 +1,36 @@
+html {
+    font-family: monospace;
+    color: azure;
+    text-shadow: 2px grey;
+    background: url("https://wallpapercave.com/wp/StoMaHt.jpg") repeat 0 0;
+    -webkit-animation: slide 60s linear infinite;
+    -webkit-transform: scale(1,1);
+}
+@-webkit-keyframes slide {
+    from { background-position: 1000px, 0;} to {background-position: -1000px, 0;}
+}
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    font-size: 100px;
+}
+
+nav{
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-evenly;
+}
+div{
+    display: flex;
+}
+div:hover{
+    border-left: 2px whitesmoke solid;
+    border-right: 2px whitesmoke solid;
+}
+footer{
+    display: flex;
+    ;
+}
