@@ -54,9 +54,16 @@ div{
 div:hover{
     border-left: 2px whitesmoke solid;
     border-right: 2px whitesmoke solid;
+    color: #86f895;
 }
-div:visited{
+a:link{
+    color: aliceblue;
+}
+a:visited{
     color: aquamarine;
+}
+a:hover{
+    color:#86f895
 }
 footer{
     display: flex;
