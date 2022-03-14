@@ -14,23 +14,50 @@ h1 {
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 15%;
+    padding-top: 13%;
     font-size: 100px;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #83ffbb 0%,
+        #c5f0f3 29%,
+        #57fa6d 67%,
+        #f0efe9 100%
+        );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: rgb(180, 208, 245);
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 20s linear infinite;
+    display: inline-block;
+    padding-left: 2%;
 }
-
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
 nav{
     display: flex;
     padding-top: 5%;
     justify-content: space-evenly;
+    font-size: large;
 }
 div{
     display: flex;
+    padding: 1vh;
 }
 div:hover{
     border-left: 2px whitesmoke solid;
     border-right: 2px whitesmoke solid;
 }
+div:visited{
+    color: aquamarine;
+}
 footer{
     display: flex;
-    ;
 }
