@@ -7,7 +7,8 @@ html {
     -webkit-transform: scale(1,1);
 }
 @-webkit-keyframes slide {
-    from { background-position: 1000px, 0;} to {background-position: -1000px, 0;}
+    from { background-position: 1000px, 0;} 
+    to {background-position: -1000px, 0;}
 }
 h1 {
     display: flex;
@@ -54,6 +55,7 @@ a:hover{
 }
 a:link{
     color: aliceblue;
+    text-decoration: none;
 }
 a:visited{
     color: aquamarine;
@@ -80,6 +82,7 @@ a:hover{
     -webkit-filter: grayscale(0%);
     filter: none;
     transition: 1s ease;
+    border: none;
 }
 footer{
     display: flex;
